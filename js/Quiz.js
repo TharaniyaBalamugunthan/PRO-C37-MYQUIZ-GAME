@@ -57,9 +57,6 @@ class Quiz {
           else
             fill("red");
 
-      displayPosition += 20;
-      textSize(15);
-      text(allPlayers[plr].name+': '+ allPlayers[plr].distance,120,displayPosition);
     }
     
   }
